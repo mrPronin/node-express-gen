@@ -35,4 +35,4 @@ promoRouter.route('/:id')
         res.end('Deleting promotion: ' + req.params.id);
 });
 
-exports.promoRouter = promoRouter;
+module.exports = promoRouter;

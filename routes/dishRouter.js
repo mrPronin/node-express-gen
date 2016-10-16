@@ -35,4 +35,4 @@ dishRouter.route('/:id')
         res.end('Deleting dish: ' + req.params.id);
 });
 
-exports.dishRouter = dishRouter;
+module.exports = dishRouter;

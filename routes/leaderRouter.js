@@ -35,4 +35,4 @@ leaderRouter.route('/:id')
         res.end('Deleting leader: ' + req.params.id);
 });
 
-exports.leaderRouter = leaderRouter;
+module.exports = leaderRouter;
